@@ -13,7 +13,7 @@ import streamlit as st
 st.set_page_config(page_title="Apartamentos novos", layout="wide")
 
 PASTA_DADOS = Path(__file__).parent / "ArquivosCSV"
-FONTE = "Fonte: [ATENÇÃO: preencha com a fonte real dos seus CSVs, ex.: ITBI - Prefeitura de Porto Alegre]"
+FONTE = "Fonte: https://dadosabertos.poa.br/dataset/itbi"
 
 
 # ============================================================
